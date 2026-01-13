@@ -1,0 +1,26 @@
+Django==5.0.2                  
+# Main Python web framework used to build the backend, routing, templates, admin panel, and authentication.
+psycopg2-binary==2.9.9        
+# PostgreSQL database adapter to connect Django with PostgreSQL database.
+djangorestframework==3.14.0   
+# Django REST Framework, used to build APIs for frontend consumption or external clients.
+python-dotenv==1.0.1           
+# Loads environment variables from a .env file for secure storage of secrets like DB passwords.
+django-cors-headers==4.3.1     
+# Handles Cross-Origin Resource Sharing (CORS), allowing frontend apps on different domains to access APIs.
+gunicorn==21.2.0               
+# Production-ready WSGI HTTP server to deploy the Django app in real environments.
+whitenoise==6.6.0              
+# Serves static files (CSS, JS, images) efficiently in production without needing Nginx.
+Pillow==10.0.0                 
+# Python Imaging Library fork, used for handling and processing images (e.g., profile pics, question images).
+celery==5.5.3             
+# Asynchronous task queue for running background tasks like generating heavy reports or sending emails.
+redis==4.5.5                   
+# Message broker for Celery, stores and queues background tasks for execution by workers.
+django-filter==23.2            
+# Simplifies filtering of querysets in Django or DRF APIs using URL query parameters.
+openpyxl==3.1.2                
+# Python library to create, read, and modify Excel files (.xlsx), used for report generation.
+pandas==2.2.1                  
+# Powerful data manipulation library, used to efficiently process large datasets and generate Excel reports.
